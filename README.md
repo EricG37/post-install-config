@@ -3,4 +3,4 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-<p>This guide covers the steps needed to configure osTicket after installation, transforming the open-source help desk ticketing system from its initial state into a fully functioning, production-ready platform for handling real support tickets.</p>
+<p>This guide covers the steps needed to configure osTicket after installation, transforming the open-source help desk ticketing system from its initial state into a fully functioning, production ready platform for handling real support tickets.</p>
