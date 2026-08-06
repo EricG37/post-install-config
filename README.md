@@ -8,9 +8,9 @@
 <h2>Environments and Technologies Used</h2>
 <p>The following environments and technologies are used:</p>
 <ul>
-  <li><strong>Microsoft Azure:</strong> Virtual machines and cloud compute services are used to host the osTicket installation.</li>
-  <li><strong>Remote Desktop:</strong> Secure access to the virtual machine hosting osTicket for configuration and management purposes.</li>
-  <li><strong>Internet Information Services (IIS):</strong> Web server software that hosts the osTicket web application on Windows.</li>
+  <li><strong>Microsoft Azure:</strong> Provides the virtual machine and cloud compute resources used to host the osTicket installation.</li>
+  <li><strong>Remote Desktop:</strong> Enables secure remote access to the virtual machine for configuring and managing osTicket.</li>
+  <li><strong>Internet Information Services (IIS):</strong> The web server software running on Windows that hosts and serves the osTicket web application.</li>
 </ul>
 
 <h2>Operating Systems Used</h2>
