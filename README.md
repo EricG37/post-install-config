@@ -33,3 +33,48 @@
   <li><strong>SLAs (Service Level Agreements):</strong> Rules that set expected response and resolution times based on how urgent a ticket is.</li>
   <li><strong>Help Desk Topics:</strong> Categories a user selects when submitting a ticket, which can also be used to automatically route it to the right department.</li>
 </ul>
+
+<h3>Outline</h3>
+
+<ul>
+  <li><strong>Configure Roles</strong>
+    <ul>
+      <li>Navigate to Admin Panel to Agents to Roles</li>
+      <li>Set the "Supreme Admin" role for full administrative control.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Configure Departments</strong>
+    <ul>
+      <li>Navigate to Admin Panel to Agents to Departments</li>
+      <li>Make a department named "SysAdmins" to handle system-level issues (used to separate ticket visibility between Help Desk, SysAdmins, and Networking).</li>
+    </ul>
+  </li>
+  
+  <li><strong>Configure Teams</strong>
+    <ul>
+      <li>Navigate to Admin Panel to Agents to Teams</li>
+      <li>Teams pull agents from different departments. Set up a team called "Online Banking" to handle that specific area of support.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Allow Anyone to Create Tickets</strong>
+    <ul>
+      <li>Navigate to Admin Panel to Settings to User Settings</li>
+      <li>Uncheck "Registration Required" so unregistered users are able to create tickets without first logging in.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Configure Agents (Workers)</strong>
+    <ul>
+      <li>Navigate to Admin Panel to Agents to Add New</li>
+      <li>Add agents like "Eric(Dept:SysAdmins)" and "Alex(Dept:Support" to handle incoming tickets.</li>
+    </ul>
+  </li>
+  
+  <li><strong>Configure Users (Customers)</strong>
+    <ul>
+      <li>Navigate to Agent Panel to Users to Add New</li>
+      <li>Add users like "Marcelo" and "Luis" who will submit tickets for support.</li>
+    </ul>
+  </li>
