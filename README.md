@@ -78,3 +78,39 @@
       <li>Add users like "Marcelo" and "Luis" who will submit tickets for support.</li>
     </ul>
   </li>
+
+  <li><strong>Configure SLA (Service Level Agreements)</strong>
+    <p>SLAs are rules that set an expected response/resolution timeframe for a ticket, based on how urgent or severe the issue is.</p>
+    <ul>
+      <li>Navigate to Admin Panel to Manage to SLA</li>
+      <li>Set up the following SLAs:
+        <ul>
+          <li><strong>Sev-A:</strong> 1 hour grace period, 24/7 critical system outages.</li>
+          <li><strong>Sev-B:</strong> 4 hours grace period, 24/7 for high-priority issues .</li>
+          <li><strong>Sev-C:</strong> 8 hours grace period, Business Hours only — for less critical issues such as password resets.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+
+   <li><strong>Configure Help Topics</strong>
+    <p>Help topics categorize the types of support requests users may submit, helping route tickets to the correct team or department..</p>
+    <ul>
+      <li>Navigate to Admin Panel to Manage to Help Topics</li>
+      <li>Add the following help topics:
+        <ul>
+          <li>Business Critical Outage</li>
+          <li>Personal Computer Issues</li>
+          <li>Equipment Request</li>
+          <li>Password Reset</li>
+          <li>Other</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>In this lab, I took osTicket from a bare installation to a fully configured, operational help desk system. This involved setting up Roles to control agent permissions, organizing Departments and Teams to route and manage tickets efficiently, and adding both Agents and Users to simulate a real support environment. I also configured SLAs to enforce response-time expectations based on ticket severity, and defined Help Topics to properly categorize incoming requests. By the end of this process, the system was ready to realistically handle support tickets from submission through resolution, mirroring how a help desk platform would actually be deployed and used in a business environment.</p>
